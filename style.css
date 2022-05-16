@@ -24,19 +24,13 @@ body{
     margin-top: 80px;
 }
 
-.line_h1{
+.header__line{
     width: 200px;
     border-bottom: 1px solid white;
     position: absolute;
     }
 
-.line_h3{
-    width: 100px;
-    border-bottom: 1px solid white;
-    position: absolute;
-    }
-
-.about{
+.header__about{
    display: flex;
    justify-content: center;
    flex-direction: column;
@@ -49,13 +43,6 @@ body{
     height: 750px;
     border-radius: 15px;
     margin-bottom: 30px;
-}
-
-footer{
-    margin-bottom: 30px  ;
-     background-color:hsl(222, 57%, 59%) ;
-     height: 130px;
-    border-radius: 15px;
 }
 
 .fa{
@@ -76,6 +63,13 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+footer{
+    margin-bottom: 30px  ;
+     background-color:hsl(222, 57%, 59%) ;
+     height: 130px;
+    border-radius: 15px;
 }
 
 @media (max-width: 767.98px) { 
