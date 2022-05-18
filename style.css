@@ -2,23 +2,22 @@ body{
     background-color: rgb(34, 81, 191);
     font-family: 'Rajdhani', sans-serif;
     color: white;
+    padding: 20px;
 }
 
 .container__header{
     margin-top: 30px;
     margin-bottom: 30px;
     background-color:hsl(222, 57%, 59%) ;
-    height: 500px;
+    height: 550px;
     border-radius: 15px;
 }
 
 .header__image{
     margin-top: 30px;
-    margin-left: 80px;
     height: 200px;
     border-radius: 350px;
 }
-
 
 .header__title{
     margin-top: 80px;
@@ -30,19 +29,10 @@ body{
     position: absolute;
     }
 
-.header__about{
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
-   align-items: center;
-   margin:-30px 50px 50px 50px;
-}
-
 .container__content{
     background-color:hsl(222, 57%, 59%) ;
-    height: 750px;
+    height: 640px;
     border-radius: 15px;
-    margin-bottom: 30px;
 }
 
 .fa{
@@ -50,38 +40,53 @@ body{
    height: 30px;
    width: 30px;
 }
-.container__content__header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15px;
-}
 
-.container__content__content__link{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-footer{
+.footer{
+    margin-top: 120px;
     margin-bottom: 30px  ;
-     background-color:hsl(222, 57%, 59%) ;
-     height: 130px;
+    background-color:hsl(222, 57%, 59%) ;
+    height: 130px;
     border-radius: 15px;
+    padding: 10px;
 }
 
-@media (max-width: 767.98px) { 
+@media (max-width: 992px) { 
+    .container__content{
+      height: 700px;
+  }
+  
+   .footer{
+      margin-top: 20px;
+      height: 200px;
+  }
+}
+
+@media (max-width: 768px) { 
    .container__header{
-   height: 820px;
+   height: 690px;
   }
 
+  .header__line{
+    width: 120px;
+    }
+
   .container__content{
-      height: 1300px;
+      height: 1150px;
   }
 
   .footer{
       height: 250px;
   }
 }
+@media (max-width: 576px) { 
+    .container__content{
+      height: 100px;
+  }
+
+   .footer{
+      margin-top: 30px;
+      height: 210px;
+  }
+}
+
+
